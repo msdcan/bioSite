@@ -1,0 +1,39 @@
+h1 {
+    font-family: Niconne;
+    font-size: 150px;
+    font-weight: normal;
+    text-align: center;
+    color: #613700
+
+}
+
+
+h2 {
+    font-family: "Fira Sans Condensed";
+    font-size: 40px;
+    font-weight: thick;
+    text-align: center;
+    color: #613700;
+}
+
+h3 { 
+    font-family: "Fira Sans Condensed" ;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    color: #613700;
+}
+
+p {
+    font-family: "Signika Negative";
+    font-size: 20px;
+    font-weight: normal;
+    color: #613700;
+}
+
+
+.nursing {
+    margin: 100px;
+    text-align: left;
+}
+
