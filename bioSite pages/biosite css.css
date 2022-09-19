@@ -1,3 +1,8 @@
+
+body{
+background-color:#FFDEBD
+}
+
 h1 {
     font-family: Niconne;
     font-size: 150px;
@@ -33,7 +38,57 @@ p {
 
 
 .nursing {
-    margin: 100px;
+    margin: 100px 50px 100px 50px;
     text-align: left;
 }
 
+
+
+.family {
+    margin: 100px 50px 100px 50px;
+    text-align: right
+}
+
+
+
+.whats-next {
+    margin: 100px 40px 100px 40px;
+    text-align: left;
+}
+
+
+
+.navigation {
+    margin: 100px 50px 100px 50px;
+    display: flex;
+    justify-content: center;
+
+}
+
+
+.hovertext {
+    position: relative;
+}
+
+.hovertext:before {
+    content: attr(data-hover);
+    visibility: hidden;
+    opacity: 0;
+    width: 100px;
+    background: #613700;
+    color:#fff;
+    text-align: center;
+    border-radius: 5px;
+    padding: 5px 0;
+    transition: opacity; 1s ease-in-out;
+    position: absolute;
+    z-index: 1;
+    left: 0;
+    top: 110%;
+
+}
+
+.hovertext:hover:before {
+    opacity: 1;
+    visibility: visible;
+}
